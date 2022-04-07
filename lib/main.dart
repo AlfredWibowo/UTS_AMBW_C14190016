@@ -160,7 +160,7 @@ Container buildCardLastSeenCourses(IconData icon, String course, String time) {
           ],
         ),
 
-        Icon(Icons.play_circle)
+        Icon(Icons.play_circle_fill_outlined)
       ],
     ),
   );
@@ -180,8 +180,8 @@ Widget lastSeenCoursesSection = Container(
         margin: EdgeInsets.only(top: 8.0),
         child: Column(
           children: [
-            buildCardLastSeenCourses(Icons.file_copy, 'Basics of Designing', '1 hour, 25 mins'),
-            buildCardLastSeenCourses(Icons.picture_in_picture_alt, 'Human Respiratory', '4 hour, 10 mins'),
+            buildCardLastSeenCourses(Icons.inventory_2_outlined, 'Basics of Designing', '1 hour, 25 mins'),
+            buildCardLastSeenCourses(Icons.summarize, 'Human Respiratory', '4 hour, 10 mins'),
             buildCardLastSeenCourses(Icons.folder, 'Integration & Differentiation', '2 hour, 37 mins')
           ],
         ),
