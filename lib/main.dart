@@ -54,9 +54,12 @@ Row buildTimeCourse(String time) {
         size: 14,
       ),
 
-      Text(
-        time,
-        style: TextStyle(fontSize: 12),
+      Container(
+        margin: EdgeInsets.symmetric(horizontal: 4.0),
+        child: Text(
+          time,
+          style: TextStyle(fontSize: 10),
+        ),
       )
     ],
   );
